@@ -1,0 +1,15 @@
+name: Build go
+
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  build-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copies code
+        uses: actions/checkout@v4
+
+      - name: build go
+        run: docker compose up
