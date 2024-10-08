@@ -1,6 +1,7 @@
 # github-actions-go
 
 ### Steps to Download and Run the Go program
+
 1. Clone the Repository:
 
 ```
@@ -30,7 +31,6 @@ go build hello.go
 ```
 ./hello
 ```
-
 
 ### Build and Run the Docker Image
 
